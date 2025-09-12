@@ -1,0 +1,23 @@
+import math
+"""
+function analyze_array()
+input parameter: list
+output parameter: new list
+-takes the provided list
+-saves min and max values
+-creates a new normalized value using the formula (value - min_value)/(max_value - min_value)
+-adds to new list
+-returns new list
+"""
+
+def analyze_array(array):
+  max_value = array.max()
+  min_value = array.min()
+  new_array = []
+  for item in list:
+    new_item = (item - min_value)/(max_value - min_value)
+    new_array.append(new_item)
+  return new_array
+
+bp_readings = [120, 137, 152, 123, 162, 173, 127, 154]
+print(analyze_array(bp_readings)
